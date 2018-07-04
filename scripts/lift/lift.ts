@@ -2,8 +2,6 @@ class Lift {
     _name: string;
     constructor(name: string = 'Chris') {
         this._name = name;
-        alert(this._name);
+        console.log('New Lift created: ' + this._name);
     }
 }
-
-var lift = new Lift('Tracie');
