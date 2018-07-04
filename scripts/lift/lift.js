@@ -6,4 +6,3 @@ var Lift = (function () {
     }
     return Lift;
 })();
-var lift = new Lift('Tracie');
