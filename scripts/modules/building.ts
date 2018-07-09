@@ -10,7 +10,7 @@ export function CreateBuilding() {
         floors.push(new Floor(ct));
     }
 
-    let shaft = new Shaft('Shaft 1', lift, floors);
+    let shaft = new Shaft(lift, floors, 'Shaft 1');
 
     return {
         shaft: shaft
