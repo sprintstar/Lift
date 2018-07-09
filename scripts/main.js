@@ -2,6 +2,6 @@
 requirejs([
     'modules/building'
 ], function (building) {
-    building.CreateBuilding();
-    console.log('building loaded', building);
+    var shaft = building.CreateBuilding();
+    console.log('building loaded', shaft);
 });
