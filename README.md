@@ -1,4 +1,4 @@
-# Lift Sofware
+# Lift Software
 
 I am building this project for the following reasons:
 
@@ -10,8 +10,8 @@ I am building this project for the following reasons:
 I have always thought that lift software would be really fun to write.  It has the following challenges:
 
 * The complexity of the desision making process - does the lift stop, go up or down etc
-* Handling lots of input requests (https://github.com/ReactiveX/rxjs ?)
-* Visualisation of lifts - Lift control centre UI
+* Handling lots of input requests (https://github.com/ReactiveX/rxjs?)
+* Visualisation of lifts - Lift control centre UI - (https://vuejs.org/?)
 * Testing - Simulating users
 * Scalability - Add more lift shafts etc
 * Optimazion and performace - What are the bottle necks ? How many people can I transport?
