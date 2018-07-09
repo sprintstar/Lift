@@ -1,7 +1,7 @@
-///<reference path="lift.ts" />
-///<reference path="floor.ts" />
+import { Lift } from './Lift';
+import { Floor } from './Floor';
 
-class Shaft {
+export class Shaft {
 
     _name: string;
 

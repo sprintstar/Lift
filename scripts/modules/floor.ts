@@ -1,4 +1,4 @@
-class Floor {
+export class Floor {
     _level: number;
     constructor(level: number) {
         this._level = level;

@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "amd",
         "lib": [
             "es6",
             "dom"
@@ -18,7 +18,7 @@
         "forceConsistentCasingInFileNames": true
     },
     "files": [
-        "index.d.ts",
+        "require.d.ts",
         "requirejs-tests.ts"
     ]
 }
