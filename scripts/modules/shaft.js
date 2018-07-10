@@ -1,6 +1,7 @@
 define(["require", "exports"], function (require, exports) {
     var Shaft = (function () {
-        function Shaft(name, lift, floors) {
+        function Shaft(lift, floors, name) {
+            if (name === void 0) { name = 'Lift shaft'; }
             this._name = name;
             this._lift = lift;
             this._floors = floors;

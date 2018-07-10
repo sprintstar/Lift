@@ -9,7 +9,7 @@ export class Shaft {
 
     _floors: Floor[];
 
-    constructor(name: string, lift: Lift, floors: Floor[]) {
+    constructor(lift: Lift, floors: Floor[], name: string = 'Lift shaft') {
         this._name = name;
         this._lift = lift;
         this._floors = floors;

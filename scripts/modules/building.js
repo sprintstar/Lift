@@ -5,7 +5,7 @@ define(["require", "exports", './Lift', './Floor', './Shaft'], function (require
         for (var ct = 0; ct < 10; ct++) {
             floors.push(new Floor_1.Floor(ct));
         }
-        var shaft = new Shaft_1.Shaft('Shaft 1', lift, floors);
+        var shaft = new Shaft_1.Shaft(lift, floors, 'Shaft 1');
         return {
             shaft: shaft
         };
