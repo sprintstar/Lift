@@ -14,11 +14,12 @@ namespace Lift.www
 	{
 		public static void Main(string[] args)
 		{
-			CreateWebHostBuilder(args).Build().Run();
-		}
+			var host = new WebHostBuilder()
+				.UseKestrel()
+				.UseStartup<Startup>()
+				.Build();
 
-		public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-			WebHost.CreateDefaultBuilder(args)
-				.UseStartup<Startup>();
+			host.Run();
+		}
 	}
 }
